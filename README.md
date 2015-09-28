@@ -1,2 +1,0 @@
-# badget
-major IV - badget.
