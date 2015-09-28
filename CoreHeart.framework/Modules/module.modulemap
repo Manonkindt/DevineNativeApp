@@ -1,0 +1,10 @@
+framework module CoreHeart {
+  umbrella header "CoreHeart.h"
+
+  export *
+  module * { export * }
+}
+
+module CoreHeart.Swift {
+    header "CoreHeart-Swift.h"
+}
