@@ -48,7 +48,7 @@ class ChallengePopUpViewController: UIViewController, PopDelegate {
 
         super.init(nibName: nil, bundle: nil)
         
-        Alamofire.request(.GET, "http://student.howest.be/manon.kindt/testmajor/api/todos").responseJSON { (request, response, theData, error) -> Void in
+        Alamofire.request(.GET, "http://student.howest.be/manon.kindt/20142015/MA4/BADGET/api/todos").responseJSON { (request, response, theData, error) -> Void in
             
             self.badgesArray = Array<BadgeData>()
             
